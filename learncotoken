@@ -1,9 +1,9 @@
-require('dotenv').config()
+67c01eeb90eaf05c4f981cdbd4c79eec722f8778
 
-const token = process.env.LEARNCO_GITHUB_API_TOKEN
+
+const token = '67c01eeb90eaf05c4f981cdbd4c79eec722f8778'
 fetch('https://api.github.com/user/repos', {
   headers: {
     Authorization: `token ${token}`
   }
 }).then(res => res.json()).then(json => console.log(json));
-const app = "I don't do much.";
